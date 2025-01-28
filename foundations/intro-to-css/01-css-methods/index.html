@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Methods for Adding CSS</title>
+    <style>
+      p {
+        background-color: green;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+      }
+    </style>
   </head>
   <body>
     <div>Style me via the external method!</div>
+    <!-- make the background red, make the color white -->
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <!-- make the background green, make the color white -->
+    <button style="background-color: orange; border-color: rgb(200, 200, 200);" >Inline Method</button>
+    <!-- make the background orange -->
   </body>
 </html>
